@@ -1,0 +1,15 @@
+.RiBtn {
+  background-image: linear-gradient(to right, #31d35c, #2bb7da);
+
+  border: none;
+  padding: 15px 30px;
+  border-radius: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+@media screen and (max-width: 767px) {
+  .RiBtn {
+    display: none;
+  }
+}

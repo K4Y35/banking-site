@@ -1,0 +1,28 @@
+.hero {
+  display: flex;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 50%;
+  text-align: left;
+  margin-left: 60px;
+}
+
+.hero-text h1 {
+  font-size: 60px;
+  font-weight: 300;
+  color: hsl(233, 26%, 24%);
+}
+
+.hero-text p {
+  color: hsl(233, 8%, 62%);
+  margin-bottom: 50px;
+}
+
+.hero-image {
+  flex-basis: 50%;
+}

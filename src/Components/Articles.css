@@ -1,0 +1,24 @@
+.cards {
+  display: flex;
+}
+
+.articles {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.articles-wrapper {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.articles-wrapper h1 {
+  font-size: 40px;
+  font-weight: normal;
+  color: hsl(233, 26%, 24%);
+  margin-left: 10px;
+}

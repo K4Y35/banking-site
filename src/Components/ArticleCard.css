@@ -1,0 +1,34 @@
+.card-wrapper img {
+  width: 100%;
+  border-radius: 10px;
+}
+.card-wrapper {
+  box-sizing: border-box;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  background-color: white;
+
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card-body {
+  margin: 20px;
+}
+
+.card-body h6 {
+  font-size: 10px;
+  color: hsl(233, 8%, 62%);
+}
+
+.card-body h3 {
+  color: hsl(233, 26%, 24%);
+  font-weight: 400;
+}
+.card-body p {
+  color: hsl(233, 8%, 62%);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+}
