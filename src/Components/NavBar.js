@@ -34,7 +34,7 @@ function NavBar() {
           </li>
         </ul>
       </nav>
-      <RequestInviteButton />
+      <button className="RiBtnNav">Request Invite</button>
 
       <img
         className="menuIcon"

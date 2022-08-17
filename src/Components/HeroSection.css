@@ -26,3 +26,23 @@
 .hero-image {
   flex-basis: 50%;
 }
+
+.RiBtnHero {
+  background-image: linear-gradient(to right, #31d35c, #2bb7da);
+
+  border: none;
+  padding: 15px 30px;
+  border-radius: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+@media screen and (max-width: 767px) {
+  .hero {
+    flex-direction: column-reverse;
+  }
+
+  .RiBtnHero {
+    margin-bottom: 80px;
+  }
+}

@@ -18,7 +18,7 @@ function HeroSection() {
           budgeting, investing, and much more.
         </p>
 
-        <RequestInviteButton />
+        <button className="RiBtnHero">Request Invite</button>
       </div>
 
       <div className="hero-image">

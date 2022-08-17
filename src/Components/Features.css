@@ -1,10 +1,8 @@
 .features {
   background-color: hsl(220, 16%, 96%);
-  height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
-  z-index: -1;
 }
 
 .featureIsideDiv {
@@ -29,4 +27,16 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .features {
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
 }

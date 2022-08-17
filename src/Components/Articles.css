@@ -1,4 +1,4 @@
-.cards {
+.article-cards {
   display: flex;
 }
 
@@ -21,4 +21,15 @@
   font-weight: normal;
   color: hsl(233, 26%, 24%);
   margin-left: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .articles {
+    height: auto;
+    align-items: center;
+  }
+
+  .article-cards {
+    flex-direction: column;
+  }
 }

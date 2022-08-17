@@ -11,7 +11,7 @@ function Articles() {
     <section className="articles">
       <div className="articles-wrapper">
         <h1>Latest Articles</h1>
-        <div className="cards">
+        <div className="article-cards">
           <ArticleCard
             images={currency}
             author="By Claire Robinson"
